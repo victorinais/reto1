@@ -13,13 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'Grupo 2',
       theme: ThemeData(
         
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Convertidor de Moneda'),
+      home: const MyHomePage(title: 'Conversor de Moneda'),
     );
   }
 }
