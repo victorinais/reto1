@@ -101,8 +101,10 @@ List<objetos> lista = <objetos>[
         padding: EdgeInsets.all(15),
         child: Column(
           children: [
-            Row(children: [
-              Text("origen"),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+              Text("origen:  "),
               DropdownButton(
                 value: op1,
                 items: monedas, onChanged: (String? x) {
@@ -110,8 +112,10 @@ List<objetos> lista = <objetos>[
                     op1 = x.toString();
                   });
                 }),
-            Row(children: [
-              Text("destino"),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+              Text("destino:  "),
               DropdownButton(
                 value: op2,
                 items: monedas, onChanged: (String? x) {
@@ -122,12 +126,14 @@ List<objetos> lista = <objetos>[
             ]),
             ]),
             TextField(
+              textAlign: TextAlign.center,
               controller: textorigen,
-              decoration: InputDecoration(labelText: "origen", hintText: "0"),
+              decoration: InputDecoration(icon: Icon(Icons.arrow_circle_right_outlined,), labelText: "origen", hintText: "0",),
             ),
             TextField(
+              textAlign: TextAlign.center,
               controller: textdestino,
-              decoration: InputDecoration(labelText: "destino", hintText: "0"),
+              decoration: InputDecoration(icon: Icon(Icons.currency_exchange), labelText: "destino", hintText: "0"),
             ),
             Expanded(
               child: GridView.builder(
@@ -144,7 +150,7 @@ List<objetos> lista = <objetos>[
                 ? lista[index].icono
                 : Text(lista[index].titulo,
                 style: TextStyle(
-                  fontSize: 30, fontWeight: FontWeight.bold),),
+                  fontSize: 30, fontWeight: FontWeight.bold,),),
                   ),
                   onTap: () {
                     print(lista[index].titulo);
