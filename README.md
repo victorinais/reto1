@@ -11,7 +11,10 @@ Proyecto base para el primer reto
 
 El código incluye comentarios que explican la estructura del proyecto y los puntos en los que se tiene que trabajar están marcados con un TODO.
 
-El siguiente es un demo de la interfaz a la que se debe llegar (funcionalidades adicionales o mejoras a la interfaz son permitidas) por medio de una imagen de gif:
-gifs
+El siguiente es un demo de la interfaz a la que se debe llegar (funcionalidades adicionales o mejoras a la interfaz son permitidas) por medio de una imagen de jpgs:
+
+https://miltoncubillos.com/imagenes/000.jpg
+
+https://miltoncubillos.com/imagenes/001.jpg
 
 Solución:  https://github.com/victorinais/reto1
