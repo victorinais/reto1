@@ -1,16 +1,15 @@
 # reto1
 
-A new Flutter project.
+ESTA APP esta diseñada para la conversion de monedas especialemte en el curso de MinTIC Ciclo 4b NRC2286 grupo 2 integrantes @Victor Marin Arredondo @Kevin Ramirez Sepulveda @Carol Caro Arias @Milton Cubillos Bogota @Tatiana Betancur Echavarría
 
-## Getting Started
+Proyecto base para el primer reto
 
-This project is a starting point for a Flutter application.
+El código incluye comentarios que explican la estructura del proyecto y los puntos en los que se tiene que trabajar están marcados con un TODO.
 
-A few resources to get you started if this is your first Flutter project:
+El siguiente es un demo de la interfaz a la que se debe llegar (funcionalidades adicionales o mejoras a la interfaz son permitidas) por medio de un video:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Este es el video de la app: https://drive.google.com/file/d/1FonvCJ7DcBfwBbZvbmqFpkGdliqgDjnD/view?usp=share_link
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Solución: https://github.com/victorinais/reto1
+
+
